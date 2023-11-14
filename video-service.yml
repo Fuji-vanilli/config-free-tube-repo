@@ -1,4 +1,20 @@
 server:
   port: 7100
 
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/FT-VIDEO-DB
+
+#### AWS configuration ########
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAVLYL2MLJ7VFMPZOU
+      secret-key: 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
+
+    region:
+      static: eu-west-2
+    stack:
+      auto: false
 
