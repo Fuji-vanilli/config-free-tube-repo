@@ -6,6 +6,12 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/FT-VIDEO-DB
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 #### AWS configuration ########
 cloud:
   aws:
