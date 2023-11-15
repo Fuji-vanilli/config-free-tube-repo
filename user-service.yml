@@ -1,5 +1,5 @@
 server:
-  prt: 7200
+  port: 7200
 
 eureka:
   client:
