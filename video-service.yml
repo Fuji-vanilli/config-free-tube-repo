@@ -20,5 +20,5 @@ management:
 video:
   storage:
     local:
-      directory: D://IXML//tube-storage
+      directory: E:\I-TUBE\front-free-tube\src\assets
 
