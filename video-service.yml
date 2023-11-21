@@ -13,7 +13,7 @@ spring:
 
   security:
     oauth2:
-      resourceServer:
+      resourceserver:
         jwt:
           issuer-uri: https://fujichanel.eu.auth0.com/
 
