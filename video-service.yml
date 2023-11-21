@@ -11,6 +11,13 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
 
+  security:
+    oauth2:
+      resourceServer:
+        jwt:
+          issuer-uri: https://dev-jcskqqv7t72fqlv0.us.auth0.com/
+
+
 management:
   endpoints:
     web:
