@@ -19,9 +19,6 @@ auth:
       resourceserver:
         jwt:
           issuer-uri: https://dev-jcskqqv7t72fqlv0.us.auth0.com/
-          jwk-uri: https://dev-jcskqqv7t72fqlv0.us.auth0.com/.well-known/jwks.json
-
-
 
 management:
   endpoints:
