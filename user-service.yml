@@ -11,14 +11,14 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/FT-USER-DB
 
-auth:
-  audience: http://localhost:7200
-
   security:
     oauth2:
       resourceserver:
         jwt:
           issuer-uri: https://dev-jcskqqv7t72fqlv0.us.auth0.com/
+
+auth:
+  audience: http://localhost:7200
 
 management:
   endpoints:
