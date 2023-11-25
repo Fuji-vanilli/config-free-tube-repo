@@ -19,6 +19,7 @@ spring:
 
 auth:
   audience: http://localhost:7200
+  user-info-endpoint: https://dev-jcskqqv7t72fqlv0.us.auth0.com/userinfo
 
 management:
   endpoints:
