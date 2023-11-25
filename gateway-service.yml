@@ -23,4 +23,4 @@ spring:
     allow-bean-definition-overriding: true
 
 auth0:
-  audience: http://localhost:7100
+  audience: http://localhost:8888
