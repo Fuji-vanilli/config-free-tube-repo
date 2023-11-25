@@ -19,5 +19,8 @@ spring:
         jwt:
           issuer-uri: https://dev-jcskqqv7t72fqlv0.us.auth0.com/
 
+  main:
+    allow-bean-definition-overriding: true
+
 auth0:
   audience: http://localhost:7100
